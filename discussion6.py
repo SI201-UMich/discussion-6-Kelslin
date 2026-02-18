@@ -64,7 +64,7 @@ class HorseRaces:
             hourse = row[0]
             time = row[1:]
             hourse_list = {}
-            for i in range(len(races)):
+            for i in range(len(race)):
                 hourse_list[race[i]] = float(time[i])
             d[hourse] = hourse_list
         return d
